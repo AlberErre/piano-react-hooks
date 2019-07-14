@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import PianoKey from "./components/PianoKey";
+import Title from "./components/Title";
+import Footer from "./components/Footer";
 import { soundList } from "./data/soundList";
 import "./App.css";
 import "animate.css";
@@ -21,15 +23,7 @@ function App() {
 
   return (
     <React.Fragment>
-      <div className="title animated jackInTheBox">
-        Piano.js{" "}
-        <span role="img" aria-label="Space Invader">
-          👾
-        </span>
-        <span role="img" aria-label="Light Beam">
-          ☄️
-        </span>
-      </div>
+      <Title />
       <div className="piano animated slideInUp">
         <div className="keyContainer">
           {pianoData.map((sound, i) => (
@@ -37,12 +31,7 @@ function App() {
           ))}
         </div>
       </div>
-      <h5 className="footer">
-        Made by{" "}
-        <a href="https://albererre.com/" target="blank">
-          Alber Erre
-        </a>
-      </h5>
+      <Footer />
     </React.Fragment>
   );
 }
