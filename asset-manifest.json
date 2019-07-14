@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/piano-react-hooks/static/css/main.9e59764e.chunk.css",
+    "main.js": "/piano-react-hooks/static/js/main.992177de.chunk.js",
+    "main.js.map": "/piano-react-hooks/static/js/main.992177de.chunk.js.map",
+    "runtime~main.js": "/piano-react-hooks/static/js/runtime~main.25967125.js",
+    "runtime~main.js.map": "/piano-react-hooks/static/js/runtime~main.25967125.js.map",
+    "static/js/2.d042e1ad.chunk.js": "/piano-react-hooks/static/js/2.d042e1ad.chunk.js",
+    "static/js/2.d042e1ad.chunk.js.map": "/piano-react-hooks/static/js/2.d042e1ad.chunk.js.map",
+    "index.html": "/piano-react-hooks/index.html",
+    "precache-manifest.1d92cb9592bc10422907f93609e77137.js": "/piano-react-hooks/precache-manifest.1d92cb9592bc10422907f93609e77137.js",
+    "service-worker.js": "/piano-react-hooks/service-worker.js",
+    "static/css/main.9e59764e.chunk.css.map": "/piano-react-hooks/static/css/main.9e59764e.chunk.css.map"
+  }
+}
