@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import PianoKey from "./components/PianoKey";
 import { soundList } from "./data/soundList";
 import "./App.css";
+import "animate.css";
 
 function App() {
   const [pianoData, setPianoData] = useState([]);
@@ -20,7 +21,7 @@ function App() {
 
   return (
     <React.Fragment>
-      <div className="title">
+      <div className="title animated jackInTheBox">
         Piano.js{" "}
         <span role="img" aria-label="Space Invader">
           👾
@@ -29,13 +30,19 @@ function App() {
           ☄️
         </span>
       </div>
-      <div className="piano">
+      <div className="piano animated slideInUp">
         <div className="keyContainer">
           {pianoData.map((sound, i) => (
             <PianoKey key={i} sound={sound} />
           ))}
         </div>
       </div>
+      <h5 className="footer">
+        Made by{" "}
+        <a href="https://albererre.com/" target="blank">
+          Alber Erre
+        </a>
+      </h5>
     </React.Fragment>
   );
 }
