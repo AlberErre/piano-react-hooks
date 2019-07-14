@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/piano-react-hooks/precache-manifest.1d92cb9592bc10422907f93609e77137.js"
+  "/piano-react-hooks/precache-manifest.dc386736d0ad940a6ed884a96654b64d.js"
 );
 
 self.addEventListener('message', (event) => {
