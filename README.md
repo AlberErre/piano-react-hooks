@@ -1,12 +1,12 @@
 
 ## Space Invaders Piano app
-[<img src="https://github.com/AlberErre/piano-react-hooks/blob/master/piano-screenshot.png?raw=true" width="800">](http://albererre.com/piano-react-hooks/)
+[<img src="https://github.com/AlberErre/piano-react-hooks/blob/master/piano-screenshot.png?raw=true" width="800">](https://piano-react-hooks.netlify.app/)
 
----------- 
-### Live example: http://albererre.com/piano-react-hooks/
+----------
+### Live example: https://piano-react-hooks.netlify.app/
 
-## Quick Start 
+## Quick Start
 ```
 npm install
-npm run start 
-``` 
+npm run start
+```
